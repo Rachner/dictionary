@@ -3,7 +3,9 @@ body {
     margin: 0;
 }
   
-
+h1{
+    text-align: center;
+}
 #search-box{
     width: 100%;
     text-align: center;
@@ -43,7 +45,8 @@ body {
     /* height: 300px; */ 
     margin-bottom: 10px;
     background: rgb(77, 207, 38);
-    display: inline-block; /* 컬럼 짤림 방지*/
+    display: inline-block; /*컬럼 짤림 방지*/
+    word-break:break-all;
 }
 
 
