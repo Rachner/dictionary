@@ -36,8 +36,8 @@ h1{
 
 
 #container {
-    width: 60%;
-    columns: 2;
+    width: 70%;
+    columns: 1;
     margin: 50px auto;
 }
 .item {
@@ -47,6 +47,7 @@ h1{
     background: rgb(77, 207, 38);
     display: inline-block; /*컬럼 짤림 방지*/
     word-break:break-all;
+    border-radius: 0 200px 0 0;
 }
 
 
